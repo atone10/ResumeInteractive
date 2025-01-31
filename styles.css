@@ -1,0 +1,160 @@
+body {
+    margin: 0;
+    font-family: 'Press Start 2P', cursive;
+    color: #000;
+    background: #87CEEB;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+body::-webkit-scrollbar {
+    display: none; 
+}
+.container {
+    display: flex;
+    height: 100vh;
+    width: 500vw;
+    position: relative;
+}
+.character {
+    position: fixed;
+    bottom: -7%;
+    width: 300px;
+    height: 400px;
+    background-image: url('walking.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+.section {
+    flex: 0 0 100vw;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 2em;
+    color: #333;
+    background: #fff;
+    background-image: url('path.svg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 160%;
+    overflow: hidden;
+}
+#intro {
+    height: 100%;
+    background-image: url('welcome.gif');
+    background-color: aqua;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;   
+}
+#about {
+        height: 100%; 
+        background-image: url('about.gif');
+        background-color: aqua;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+        overflow: hidden; 
+}  
+#education {
+    height: 100%; 
+    background-image: url('educ.png');
+    background-color: aqua;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden; 
+}  
+#skills {
+    height: 100%;
+    background-image: url('skills.gif');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;            
+    background-color: #ffcc00;
+    overflow: hidden;
+}
+#experience {
+    
+    height: 100%;
+    background-image: url('exp.gif');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-color: #ff5733;            
+    overflow: hidden;
+}
+#interest {
+    height: 100%;
+    background-image: url('interest.gif');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;            
+    overflow: hidden;
+    background-color: #33cc33;
+}
+#projects {
+    height: 100%;
+    background-image: url('pj.gif');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;            
+    overflow: hidden;
+    background-color: #6666ff; 
+}
+#project {
+    height: 100%;
+    background-image: url('project.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;            
+    overflow: hidden;
+    background-color: #6666ff; 
+}
+#system {
+    height: 100%;
+    background-image: url('system.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;            
+    overflow: hidden;
+    background-color: #6666ff; 
+}
+#contact {
+    height: 100%;
+    background-image: url('field.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;            
+    overflow: hidden;
+    background-color: #6666ff; 
+}
+h1 {
+    height: 500px;
+    color: #000;
+}
+h3 {
+    height: 70px;
+    color: #000;
+}
+#contactinfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
